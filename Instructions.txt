@@ -1,0 +1,32 @@
+Instructions for Running the Project
+
+1. Install Required Packages:
+   Before running the project, make sure you have installed all the required Python packages listed in the `requirements.txt` file. You can install them using the following command:
+   
+
+2. Data Extraction:
+
+   a. Open the `Data Extraction` folder in your preferred Python environment.
+   b. Ensure that the `Input.xlsx` file is present in the project directory.
+   c. Run the data extraction script using Python:
+
+      ```
+      python main.py
+      ```
+
+   d. After execution, verify that text files containing the extracted articles are saved in the project directory under the `Output` folder with the URL_ID as their filenames.
+
+3. Textual Analysis:
+
+   a. Open the `Data Analysis` Folder.
+   b. Run the textual analysis script using Python:
+
+      ```
+      python main.py
+      ```
+
+   c. After execution, the calculated variables including POSITIVE SCORE, NEGATIVE SCORE, POLARITY SCORE, SUBJECTIVITY SCORE, AVG SENTENCE LENGTH, PERCENTAGE OF COMPLEX WORDS, FOG INDEX, AVG NUMBER OF WORDS PER SENTENCE, COMPLEX WORD COUNT, WORD COUNT, SYLLABLE PER WORD, PERSONAL PRONOUNS, and AVG WORD LENGTH are saved in the `output_feature.xlsx` file in the project directory.
+
+4. Review Results:
+
+   Review the `output_feature.xlsx` file to examine the computed variables for each article. Ensure that the variables are calculated accurately and in the correct format.
